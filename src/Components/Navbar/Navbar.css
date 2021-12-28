@@ -1,0 +1,72 @@
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-size: cover;
+    background-position: center;
+    direction: rtl;
+}
+
+.navbar-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    right: 3rem;
+    height: 80px;
+    font-family: IRANSans;
+}
+
+.navbar-logo {
+    justify-self: start;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 7rem;
+}
+
+.nav-menu {
+    display: flex;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: flex-start;
+    margin-right: 2rem;
+    margin-top: .5rem;
+}
+
+.nav-item {
+    height: 60px;
+    margin-right: 2rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    height: 100%;
+}
+
+.btn--poetry {
+    border: none;
+    height: 60px;
+    background-color: #E5E5E5;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: IRANSans;
+    cursor: pointer;
+}
