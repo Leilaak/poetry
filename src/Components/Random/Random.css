@@ -1,0 +1,112 @@
+
+.slider-poet {
+    margin: auto;
+    overflow: hidden;
+}
+
+.bg-tarh {
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: cover;
+    opacity: .3;
+}
+
+.img-design {
+    position: fixed;
+    width: 61%;
+    height: 26rem;
+    left: 0;
+    top: 20%;
+    background-color: #e8ce7d;
+}
+
+.img-design-blue {
+    position: fixed;
+    width: 39%;
+    height: 20rem;
+    right: 0;
+    top: 26%;
+    background-color: #CDDEFF;
+}
+
+.img-flower {
+    position: fixed;
+    width: 14%;
+    height: 20rem;
+    left: 0;
+    top: 20%;
+}
+
+.list--poetry {
+    position: relative;
+    margin-top: 13rem;
+    padding-left: 10rem;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 7rem;
+}
+
+.swiper-slide {
+    width: auto !important;
+    height: auto !important;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10%;
+    padding-bottom: 1rem;
+    margin-right: 63px !important;
+    box-shadow: 3px 3px 12px -3px #777;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 12rem;
+    height: 15rem;
+    object-fit: cover;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    margin-top: 7rem !important;
+    padding: 0 0.5rem;
+    border-radius: 50%;
+    background-color: #6096ba;
+    color: #fff;
+    transition: all .5s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #a3cef1;
+}
+
+.swiper-button-next{
+    left: 5rem !important;
+    right: 0 !important;
+}
+
+.swiper-button-prev {
+    left: 1rem !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.text--slide {
+    position: absolute;
+    bottom: -0.8rem;
+    right: 41%;
+}
