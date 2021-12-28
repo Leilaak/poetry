@@ -1,0 +1,117 @@
+.container-poets {
+    width: auto;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.bg-tarh-r {
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    opacity: .3;
+}
+
+.flower_img {
+    position: fixed;
+    width: 20%;
+    height: 20%;
+    right: 0;
+    top: 0;
+}
+
+.flex-direction {
+    width: 96%;
+    display: flex;
+    height: auto;
+    margin: 5rem  auto;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.list--poets-random-p {
+    position: relative;
+    width: 61%;
+    height: auto;
+    padding: 2rem 3rem;
+    justify-content: center;
+    background-color: #e8ce7d;
+    box-shadow: 3px 3px 12px -3px #777;
+}
+
+#imgId {
+    position: absolute;
+    right: 4%;
+    top: 3%;
+}
+
+.box-poems {
+    padding: 2rem 0;
+    border-radius: 20px;
+    background-color: #fff;
+    line-height: 1.5rem;
+}
+
+.box-about-poets {
+    width: 40%;
+    height: auto;
+    position: relative;
+    white-space: normal;
+    text-align: justify;
+    align-self: center;
+    direction: rtl;
+    padding: 1rem;
+    background-color: #CDDEFF;
+    box-shadow: 3px 3px 12px -3px #777;
+    font-size: 15px;
+}
+
+#poemId {
+    position: relative;
+    line-height: 2rem;
+    justify-content: center;
+    font-size: 15px;
+}
+
+#title {
+    text-align: center;
+}
+
+#poetry {
+    position: absolute;
+    right: 6%;
+}
+
+@media(max-width: 1413px) {
+    .list--poets-random-p {
+        width: 70% !important;
+    }
+}
+
+@media(max-width: 1120px) {
+    .flex-direction {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .list--poets-random-p {
+        margin: auto auto .5rem;
+    }
+
+    .box-about-poets {
+        width: 75% !important;
+    }
+}
+
+@media(max-width: 873px) {
+    .list--poets-random-p {
+        width: 88% !important;
+    }
+
+    .box-about-poets {
+        width: 93% !important;
+    }
+}
