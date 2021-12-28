@@ -1,0 +1,9 @@
+@font-face {
+  font-family: IRANSans;
+  src: local('IRANSans'), url("./Fonts/Iranian Sans.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: 'IRANSans';
+}

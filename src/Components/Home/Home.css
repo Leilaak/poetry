@@ -1,0 +1,81 @@
+.container{
+    margin: auto;
+    height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+    flex-wrap: nowrap;
+    background-color: #E5E5E5;
+    direction: rtl;
+}
+
+.design-img{
+    position: fixed;
+    width: auto;
+    height: 100vh;
+    float: left;
+    left: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: left;
+}
+
+.container-box{
+    position: relative;
+    width: 100%;
+    margin: 14% auto auto auto;
+    display: flex;
+    height: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.img-poet {
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 3rem;
+}
+
+.poet{
+    width: auto;
+}
+
+.text-box {
+    position: absolute;
+    width: 30%;
+    right: 22rem;
+    top: 3%;
+    white-space: break-spaces;
+    flex-wrap: wrap;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.poem-btn{
+    bottom: 0;
+    right: 20rem;
+    font-family: IRANSans;
+}
+
+.poetry{
+    background-color: #ecc75b;
+    border: none;
+    border-radius: 7px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: IRANSans;
+}
+
+.btn-hafez{
+    margin-left: 1rem;
+}
+
+@media (max-width: 1238px) {
+    .container-box {
+        margin-top: 29% !important;
+    }
+}
