@@ -1,0 +1,105 @@
+.faal-container {
+    margin: auto;
+    height: auto;
+    overflow-y: hidden;
+    position: relative;
+    flex-wrap: nowrap;
+    direction: ltr;
+}
+
+.bg-poet {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+
+.faal-box{
+    position: relative;
+    width: 55%;
+    height: auto;
+    margin: 6% 3rem auto auto;
+    padding: 0.8rem 1rem;
+    border-radius: 14px;
+    justify-content: center;
+    background-color: #e8ce7d;
+}
+
+.box-poem,
+.box-text{
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+#resultId {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#poem {
+    position: relative;
+    line-height: 2rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+    font-size: 14px;
+}
+
+#onePoem {
+    position: absolute;
+    right: 6%;
+}
+
+#twoPoem {
+    position: absolute;
+    left: 6%;
+}
+
+#audio {
+    display: block;
+    margin: -1rem auto auto;
+    padding-bottom: 1rem;
+}
+
+#meanText {
+    padding: 1.2rem;
+}
+
+.btn-back {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 1rem .5rem;
+    border: none;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    cursor: pointer;
+    transition: all .5s;
+    font-family: IRANSans;
+}
+
+.btn:hover {
+    background-color: #D5D5D5;
+}
+
+@media (max-width: 1128px) {
+    .faal-box{
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .faal-box{
+        width: auto !important;
+        margin-left: 3rem !important;
+    }
+}
+
+@media (max-width: 906px) {
+    #poem {
+        font-size: 11px !important;
+    }
+}
